@@ -1,0 +1,14 @@
+.nav-header {
+  width: 100%;
+  height: 50px;
+  font-size: 14px;
+  background: #ccc; }
+
+.nav-header-item {
+  float: left;
+  width: 120px;
+  line-height: 50px; }
+
+.nav-header-item > a {
+  text-decoration: none;
+  color: #333; }

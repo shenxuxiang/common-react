@@ -1,0 +1,25 @@
+html {
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: none;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+*:focus {
+    outline: none;
+}
+.clear-fix,
+.clear-fix:after {
+	display: table;
+}
+.clear-fix:after {
+	content: '';
+	clear: both;
+}
+ul {
+	list-style: none;
+}
