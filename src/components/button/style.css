@@ -1,0 +1,11 @@
+.my-button {
+  width: 140px;
+  height: 32px;
+  border-radius: 6px;
+  background: #ff017d;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  line-height: 32px;
+  user-select: none;
+  cursor: pointer; }

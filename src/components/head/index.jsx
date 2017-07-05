@@ -26,6 +26,7 @@ class Head extends Component {
     	apis.cancel()
     }
 	render () {
+        const { userInfo, counter } = this.props
 		return (
 			<ul className="nav-header">
 				<li className="nav-header-item">
@@ -38,11 +39,14 @@ class Head extends Component {
 					<NavLink to="/detail">detal</NavLink>
 				</li>
 				<li className="nav-header-item">
-					{this.props.userInfo.name}
+					{userInfo.name}
 				</li>
-				<li className="nav-header-item" onClick={this.handle.bind(this)}>
-					{this.props.userInfo.city}
-				</li>
+                <li className="nav-header-item">
+                    {userInfo.city}
+                </li>
+                <li className="nav-header-item">
+                    {counter.count}
+                </li>
 			</ul>
 		)
 	}

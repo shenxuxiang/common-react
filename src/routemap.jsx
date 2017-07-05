@@ -22,6 +22,7 @@ class RouteMap extends Component {
 				<div className="contain-box">
 					<Head
 						userInfo={this.props.userInfo}
+						counter={this.props.counter}
 					/>
 					<Route path="/home" component={Home}/>
 					<Route path="/list" component={List}/>
